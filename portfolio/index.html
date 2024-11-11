@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="StudentInfo">
+
+            <div class="Student"> Students Information</div>
+
+            <form>
+                
+                <div class="inputs">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="surname">Surname :</label>
+                    <input type="text" name="surname" id="surname" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="email">E-mail :</label>
+                    <input type="email" name="email" id="email"  required>
+                </div>
+
+                <div class="inputs">
+                    <label for="phone">Phone :</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+212XXX-XX-XX-XX">
+                </div>
+
+                <div class="inputs">
+                    <label for="group">Group :</label>
+                    <select name="group" id="group">
+                        <option value="" selected disabled>Select a group</option>
+                        <option value="DW101">DW101</option>
+                        <option value="DW102">DW102</option>
+                        <option value="DW103">DW103</option>
+                        <option value="DW104">DW104</option>  
+                    </select>
+                </div>
+
+            </form>
+            <button  onclick="NextPage(event)" id="next">Next</button>
+
+
+        </div>
+
+    </body>
+<script src="script.js"></script>
+</html>

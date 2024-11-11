@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="StudentProjects">
+
+            <div class="Student">Projects</div>
+
+            <form>
+                
+                <div class="inputs">
+                    <label for="title">Title :</label>
+                    <input type="text" name="title" id="title" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="githubLink">GithubLink :</label>
+                    <input type="text" name="githubLink" id="githubLink" required>
+                </div>
+
+                <div class="inputs">
+                        <label for="skills">Skills :</label>
+                            <label for="html">HTML</label>
+                            <input type="checkbox" id="html">
+                            <label for="css">CSS</label>
+                            <input type="checkbox" id="css">
+                            <label for="javascript">JAVASCRIPT</label>
+                            <input type="checkbox" id="javascript">
+                </div>
+
+                <div class="inputs">
+                    <label for="reldate">Realization Date :</label>
+                    <input type="date" name="reldate" id="reldate" required>
+                </div>
+
+
+            </form>
+            <button id="Validate" onclick="ValidateProjectsForm(event)">Add Project</button>
+            <button id="Done" onclick="DoneButton()">Done</button>
+
+        </div>
+        <div class="projectsList">
+            
+
+        </div>
+
+
+    </body>
+<script src="script.js"></script>
+</html> 
